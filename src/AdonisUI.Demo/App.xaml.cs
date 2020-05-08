@@ -12,5 +12,9 @@ namespace AdonisUI.Demo
     /// </summary>
     public partial class App : Application
     {
+        private void Application_Startup(object sender, StartupEventArgs e)
+        {
+            AdonisUI.Animations.ExpanderDuration = new Duration(TimeSpan.FromMilliseconds(100));
+        }
     }
 }

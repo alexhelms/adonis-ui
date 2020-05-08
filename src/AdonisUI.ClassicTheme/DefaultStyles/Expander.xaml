@@ -68,7 +68,7 @@
                                         <DoubleAnimation Storyboard.TargetName="Arrow"
                                                          Storyboard.TargetProperty="(FrameworkElement.RenderTransform).(RotateTransform.Angle)"
                                                          To="-180"
-                                                         Duration="0:0:0.2"/>
+                                                         Duration="{x:Static adonisUi:Animations.ExpanderDuration}"/>
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.EnterActions>
@@ -78,7 +78,7 @@
                                         <DoubleAnimation Storyboard.TargetName="Arrow"
                                                          Storyboard.TargetProperty="(Path.RenderTransform).(RotateTransform.Angle)"
                                                          To="0"
-                                                         Duration="0:0:0.2"/>
+                                                         Duration="{x:Static adonisUi:Animations.ExpanderDuration}"/>
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.ExitActions>
@@ -150,7 +150,7 @@
                                         <DoubleAnimation Storyboard.TargetName="Arrow"
                                                          Storyboard.TargetProperty="(FrameworkElement.RenderTransform).(RotateTransform.Angle)"
                                                          To="-180"
-                                                         Duration="0:0:0.2"/>
+                                                         Duration="{x:Static adonisUi:Animations.ExpanderDuration}"/>
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.EnterActions>
@@ -160,7 +160,7 @@
                                         <DoubleAnimation Storyboard.TargetName="Arrow"
                                                          Storyboard.TargetProperty="(Path.RenderTransform).(RotateTransform.Angle)"
                                                          To="0"
-                                                         Duration="0:0:0.2"/>
+                                                         Duration="{x:Static adonisUi:Animations.ExpanderDuration}"/>
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.ExitActions>
@@ -232,7 +232,7 @@
                                         <DoubleAnimation Storyboard.TargetName="Arrow"
                                                          Storyboard.TargetProperty="(FrameworkElement.RenderTransform).(RotateTransform.Angle)"
                                                          To="-180"
-                                                         Duration="0:0:0.2"/>
+                                                         Duration="{x:Static adonisUi:Animations.ExpanderDuration}"/>
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.EnterActions>
@@ -242,7 +242,7 @@
                                         <DoubleAnimation Storyboard.TargetName="Arrow"
                                                          Storyboard.TargetProperty="(Path.RenderTransform).(RotateTransform.Angle)"
                                                          To="0"
-                                                         Duration="0:0:0.2"/>
+                                                         Duration="{x:Static adonisUi:Animations.ExpanderDuration}"/>
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.ExitActions>
@@ -318,7 +318,7 @@
                                         <DoubleAnimation Storyboard.TargetName="Arrow"
                                                          Storyboard.TargetProperty="(FrameworkElement.RenderTransform).(RotateTransform.Angle)"
                                                          To="-180"
-                                                         Duration="0:0:0.2"/>
+                                                         Duration="{x:Static adonisUi:Animations.ExpanderDuration}"/>
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.EnterActions>
@@ -328,7 +328,7 @@
                                         <DoubleAnimation Storyboard.TargetName="Arrow"
                                                          Storyboard.TargetProperty="(Path.RenderTransform).(RotateTransform.Angle)"
                                                          To="0"
-                                                         Duration="0:0:0.2"/>
+                                                         Duration="{x:Static adonisUi:Animations.ExpanderDuration}"/>
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.ExitActions>
@@ -507,7 +507,7 @@
                                         <DoubleAnimation Storyboard.TargetName="ExpandSiteContainer"
                                                          Storyboard.TargetProperty="Tag"
                                                          To="1"
-                                                         Duration="0:0:0.2"/>
+                                                         Duration="{x:Static adonisUi:Animations.ExpanderDuration}"/>
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.EnterActions>
@@ -517,7 +517,7 @@
                                         <DoubleAnimation Storyboard.TargetName="ExpandSiteContainer"
                                                          Storyboard.TargetProperty="Tag"
                                                          To="0"
-                                                         Duration="0:0:0.2"/>
+                                                         Duration="{x:Static adonisUi:Animations.ExpanderDuration}"/>
                                     </Storyboard>
                                 </BeginStoryboard>
                             </Trigger.ExitActions>
